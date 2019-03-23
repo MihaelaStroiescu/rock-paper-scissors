@@ -1,0 +1,72 @@
+.container {
+    width: 1000px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: rgb(157, 240, 212);
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.buttonOption {
+   padding: 0;
+   margin: 10px;
+   border: 0;
+    background-color: white;
+}
+
+.far {
+    padding: 10px;
+}
+
+.far::before {
+    font-size: 180px;
+}
+
+.userSelect {
+    background-color: red;
+}
+
+.compSelect {
+    background-color: yellow;
+}
+
+.bothSelect {
+    background-color: #f44302;
+}
+
+.player {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.scoreBoxUser {
+    flex: 1;
+  flex-grow: 1;
+}
+
+.scoreBoxComp {
+    flex: 1;
+    flex-grow: 1;
+}
+
+.scoreBox {
+    padding: 10px;
+    font-size: 20px;
+}
+.board {
+    width: 20%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.playAgain, .resetContor {
+    padding: 10px;
+    margin: 10px auto;
+}
